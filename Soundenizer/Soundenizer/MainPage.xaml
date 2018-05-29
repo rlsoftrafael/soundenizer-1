@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Soundenizer"
+             x:Class="Soundenizer.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Button Text="1" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="2" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="3" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Button Text="4" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="5" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="6" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Button Text="7" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="8" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="9" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
