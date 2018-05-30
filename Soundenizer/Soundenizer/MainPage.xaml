@@ -22,6 +22,7 @@
         <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
             <Button Text="10" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
             <Button Text="11" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+            <Button Text="12" Clicked="BtnSound_OnClicked" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
         </StackLayout>
     </StackLayout>
 
